@@ -28,9 +28,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Github - [bkfoe](https://www.your-site.com)
-- Frontend Mentor - [@bkfoe](https://www.frontendmentor.io/profile/yourusername)
+- Github - [bkfoe](https://github.com/BKFOE)
+- Frontend Mentor - [@bkfoe](https://www.frontendmentor.io/profile/bkfoe)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
