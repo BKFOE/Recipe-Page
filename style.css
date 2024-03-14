@@ -43,11 +43,12 @@ body {
     margin: 7.7rem auto 0;
 }
 
-header{
+figure {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 0 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .header-img{
@@ -67,6 +68,7 @@ header{
     letter-spacing: .01rem;
     color: var(--Dark-Charcoal);
     font-family: "Young Serif", serif;
+    font-weight: lighter;
 }
 
 p{
@@ -199,7 +201,7 @@ td{
         border-radius: 0;
     }
 
-    .container header {
+    .container figure {
         padding: 0;
     }
 
