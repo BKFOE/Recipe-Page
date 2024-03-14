@@ -26,10 +26,8 @@ body {
     min-height: 1955px;
     justify-content: center;
     background-color: var(--Eggshell);
-    color: var(--Wenge-Brown);
-    font-size: 0.80rem;
     line-height: 1.25rem;
-    font-family: "outfit", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .container{
@@ -42,10 +40,10 @@ body {
     max-width: 736px;
     height: fit-content;
     padding-bottom: 1.5rem;
-    margin-top: 7.7rem;
+    margin: 7.7rem auto 0;
 }
 
-.header{
+header{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -64,24 +62,25 @@ body {
 }
 
 .title{
-    margin-top: 2.5rem;
-    font-weight: 400;
-    font-size: 2rem;
-    letter-spacing: .05rem;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: .01rem;
     color: var(--Dark-Charcoal);
     font-family: "Young Serif", serif;
 }
 
 p{
     font-size: 0.80rem;
+    letter-spacing: .01rem;
+    color: var(--Wenge-Brown);
 }
 
-#first{
+p:first-of-type{
     margin-top: .95rem;
     line-height: 1.5rem;
 }
 
-.body-one{
+.preparation{
     width: 100%;
     background-color: var(--Rose-White);
     border-radius: 0.88rem;
@@ -89,11 +88,11 @@ p{
     padding: 1.55rem 1.75rem 1.15rem;
 }
 
-.body-one p{
+.preparation p{
     margin-left: 1rem ;
 }
 
-.body-one h3{
+.preparation h2{
     margin-bottom: .8rem;
     font-size: 1.25rem;
     color: var(--Dark-Raspberry);
@@ -101,22 +100,24 @@ p{
     letter-spacing: .01rem;
 }
 
-.body-one ul{
+.preparation ul{
     margin-left: 1.5rem;
 }
 
-.body-one li{
+.preparation li{
     margin-bottom: .5rem;
 }
 
-h2{
+.ingredients h2,
+.instructions h2, 
+.nutrition h2 {
     margin-bottom: 1.3rem;
-    margin-top: 1.6rem;
+    margin-top: 1.65rem;
     color: var(--Nutmeg);
     font-weight: 600;
     letter-spacing: .06rem;
     font-family: "Young Serif", serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .ingredients ul{
@@ -128,13 +129,14 @@ h2{
 }
 
 .ingredients p {
-    margin: 0 0 0 1rem;
+    margin-left: 1rem;
+    line-height: 1.2rem;
 }
 
 hr {
     height: 1px;
     border-top: 1px solid var(--Light-Grey);
-    margin: 2rem 0;
+    margin-top: 2.1rem;
 }
 
 .instructions ol{
@@ -143,15 +145,12 @@ hr {
 
 .instructions li {
     margin-left: 1rem;
+    margin-bottom: .75rem;
+    color: var(--Wenge-Brown);
 }
 
 .instructions p{
-    margin: 0 0 0 1rem;
-}
-
-li {
-    margin-bottom: .75rem;
-    text-decoration: var(--Wenge-Brown);
+    margin-left: 1rem;
 }
 
 li::marker{
@@ -162,26 +161,31 @@ li::marker{
 table{
     border-collapse: collapse;
     width: 100%;
-    margin-top: 2rem;
 }
 
-#cal{
+.nutrition p{
+    margin-bottom: 2rem;
+}
+
+h4{
     color: var(--Nutmeg);
     font-weight: 600;
 }
 
-tr{
+.nutrition .row {
+    margin-top: .8rem;
+    padding-bottom: .8rem;
     border-bottom: 1px solid var(--Light-Grey);
 }
 
 td{
-    padding-left: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
 }
 
-#bottomrow{
-    border: 0;
+.nutrition .row:last-of-type{
+    border: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -195,7 +199,7 @@ td{
         border-radius: 0;
     }
 
-    .container .header {
+    .container header {
         padding: 0;
     }
 
