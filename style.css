@@ -64,6 +64,7 @@ figure {
 
 .title{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 2.5rem;
     letter-spacing: .01rem;
     color: var(--Dark-Charcoal);
@@ -116,7 +117,7 @@ p:first-of-type{
     margin-bottom: 1.3rem;
     margin-top: 1.65rem;
     color: var(--Nutmeg);
-    font-weight: 600;
+    font-weight: lighter;
     letter-spacing: .06rem;
     font-family: "Young Serif", serif;
     font-size: 1.7rem;
